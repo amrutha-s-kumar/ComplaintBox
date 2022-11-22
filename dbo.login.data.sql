@@ -1,0 +1,17 @@
+﻿SET IDENTITY_INSERT [dbo].[login] ON
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (1, N'anupri', N'Cserty', N'not yet confirmed', N'customer')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (2, N'anupri', N'Cserty', N'not yet confirmed', N'customer')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (3, N'ammu', N'123', N'not yet confirmed', N'customer')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (4, N'ammu', N'', N'not yet confirmed', N'customer')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (5, N'anju', N'anju123', N'not yet confirmed', N'customer')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (6, N'a', N'a', N'not yet confirmed', N'customer')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (7, N'Amrutha', N'ammu', N'customer', N'confirmed')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (8, N'ammu', N'ammu123', N'customer', N'not yet confirmed')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (9, N'sree', N'sree123', N'customer', N'not yet confirmed')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (10, N'Amrutha', N'jdgkj,ng', N'customer', N'not yet confirmed')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (11, N'Amrutha', N'ammu123', N'customer', N'not yet confirmed')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (12, N'Amrutha', N'anul', N'customer', N'not yet confirmed')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (13, N'amal', N'amal', N'customer', N'not yet confirmed')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (14, N'sanju', N'sanju12', N'customer', N'not yet confirmed')
+INSERT INTO [dbo].[login] ([lid], [username], [password], [role], [status]) VALUES (15, N'admin', N'admin', N'customer', N'not yet confirmed')
+SET IDENTITY_INSERT [dbo].[login] OFF
